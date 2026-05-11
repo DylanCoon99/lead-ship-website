@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About — Lead Ship" description="Learn about Lead Ship's mission to simplify B2B lead delivery for campaign teams.">
+
+  <!-- Hero -->
+  <section class="relative bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
+    <div class="absolute inset-0 opacity-[0.07]" style="background-image: radial-gradient(circle at 1px 1px, white 1px, transparent 1px); background-size: 40px 40px;"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">Built by People Who've<br/>Lived the Problem</h1>
+      <p class="mt-6 text-lg text-white/60 max-w-2xl mx-auto">
+        Lead Ship was born from firsthand frustration with the manual, error-prone process of managing B2B lead delivery at scale.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="py-20 lg:py-28 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="fade-up">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8">Our Mission</h2>
+        <div class="prose prose-lg text-gray-600 space-y-6">
+          <p>
+            Campaign managers in B2B sales spend too much time wrestling with spreadsheets, chasing suppliers for updates, manually deduplicating records, and coordinating deliveries across email threads. It's tedious, error-prone, and doesn't scale.
+          </p>
+          <p>
+            We built Lead Ship to fix that. Our platform automates the entire lead delivery pipeline — from campaign targeting and supplier coordination to validation, approval, and delivery — so teams can focus on what actually moves the needle: closing deals and growing revenue.
+          </p>
+          <p>
+            Lead Ship is designed for the people who do the work every day. Not a generic CRM with lead features bolted on, but a purpose-built platform for the specific workflow of collecting, validating, and delivering B2B leads at scale.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="py-20 lg:py-28 bg-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl font-bold text-gray-900">What We Believe</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto stagger">
+        <div class="fade-up text-center">
+          <div class="w-14 h-14 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Reliability</h3>
+          <p class="text-gray-500">Leads delivered on time, every time. Your buyers and suppliers should never wonder where things stand.</p>
+        </div>
+
+        <div class="fade-up text-center">
+          <div class="w-14 h-14 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Transparency</h3>
+          <p class="text-gray-500">Full visibility into every step of the process. Audit trails, delivery history, and real-time status — nothing hidden.</p>
+        </div>
+
+        <div class="fade-up text-center">
+          <div class="w-14 h-14 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Simplicity</h3>
+          <p class="text-gray-500">Powerful doesn't have to mean complicated. We build tools that are intuitive from day one — no training manual required.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl font-bold text-gray-900">The Team</h2>
+        <p class="mt-4 text-lg text-gray-500">The people behind Lead Ship.</p>
+      </div>
+
+      <div class="max-w-sm mx-auto fade-up">
+        <div class="bg-surface rounded-2xl p-8 text-center border border-gray-100">
+          <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-6"></div>
+          <h3 class="text-lg font-bold text-gray-900">Dylan Coon</h3>
+          <p class="text-accent text-sm font-medium">Founder</p>
+          <p class="text-gray-500 text-sm mt-3">Building the lead delivery platform he wished existed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 lg:py-24 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-[0.05]" style="background-image: radial-gradient(circle at 1px 1px, white 1px, transparent 1px); background-size: 32px 32px;"></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-up">
+      <h2 class="text-3xl sm:text-4xl font-bold text-white">Want to learn more?</h2>
+      <p class="mt-4 text-lg text-white/60">We'd love to show you how Lead Ship can help your team.</p>
+      <div class="mt-8">
+        <a href="/contact" class="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-base">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
